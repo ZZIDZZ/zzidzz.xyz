@@ -1,85 +1,64 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+  import {
+    RouterLink,
+    RouterView
+  } from 'vue-router'
+  import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <div class="container mt-5" style="display: inline; float: none;" >
+        <a href="https://github.com/ZZIDZZ" style="display: flex; gap: 10px;">
+            <img src="https://github.com/ZZIDZZ.png" alt="ZZIDZZ" class="circle img-thumbnail" style="width: 50px; height: 50px;">
+            <h4 class="text">zzidzz@github.com</h4>
+        </a>
     </div>
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://brobin.github.io/hacker-bootstrap/css/hacker.css">
+
+    <nav>
+      <div class="container">
+        <div class="header-links row centernavtext">
+          <RouterLink to="/">
+              <h2 class="text header-link">guest@zzidzz.xyz:~$</h2>
+          </RouterLink>
+        </div>
+        <div class="header-links row" >
+          <div class="col centernavtext">
+            <RouterLink to="/projects">
+              <h3 class="header-link">Projects</h3>
+            </RouterLink>
+          </div>
+          <div class="col centernavtext">
+            <RouterLink to="/personal">
+              <h3 class="header-link">Personal Life</h3>
+            </RouterLink>
+          </div>
+          <div class="col centernavtext">
+            <RouterLink to="/about">
+              <h3 class="header-link">About</h3>
+            </RouterLink>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <RouterView />
   </header>
 
-  <RouterView />
+
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+  
+  .centernavtext {
+    text-align: center;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
+  
 </style>

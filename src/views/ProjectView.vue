@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper" style="display: block; text-align: center;">
-    <h1>About Nigger</h1>
+    <h1>My Projects</h1>
     <div class="container">
-      Nigger is BLACK BLACK is NO
+      My Projects is that I Made it The FUCK UP
     </div>
   </div>
 </template>
