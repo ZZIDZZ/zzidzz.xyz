@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper" style="display: block; text-align: center;">
-    <h1>About Nigger</h1>
+    <h1>About Black</h1>
     <div class="container">
-      Nigger is BLACK BLACK is NO
+      Black is BLACK BLACK is NO
     </div>
   </div>
 </template>

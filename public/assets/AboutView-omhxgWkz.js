@@ -1,1 +1,0 @@
-import{_ as s,c as t,o,a as e}from"./index-JCSa_QLm.js";const c={},n={class:"wrapper",style:{display:"block","text-align":"center"}},a=e("h1",null,"About Nigger",-1),r=e("div",{class:"container"}," Nigger is BLACK BLACK is NO ",-1),i=[a,r];function _(l,d){return o(),t("div",n,i)}const f=s(c,[["render",_]]);export{f as default};

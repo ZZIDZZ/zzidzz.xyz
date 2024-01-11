@@ -1,1 +1,0 @@
-import{_ as s,c as t,o,a as e}from"./index-JCSa_QLm.js";const c={},n={class:"wrapper",style:{display:"block","text-align":"center"}},a=e("h1",null,"About Me",-1),r=e("div",{class:"container"}," HAH JOKES ON YOU IM NOT GIVING MY PERSONAL INFO ",-1),_=[a,r];function i(l,d){return o(),t("div",n,_)}const f=s(c,[["render",i]]);export{f as default};
