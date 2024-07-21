@@ -1,1 +1,0 @@
-import{_ as t,c as s,o as c,a as e}from"./index-fXr1BVbn.js";const o={},a={class:"wrapper",style:{display:"block","text-align":"center"}},n=e("h1",null,"My Projects",-1),r=e("div",{class:"container"}," My Projects is that I Made it The FUCK UP ",-1),_=[n,r];function i(d,l){return c(),s("div",a,_)}const p=t(o,[["render",i]]);export{p as default};

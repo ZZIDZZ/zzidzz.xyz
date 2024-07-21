@@ -1,1 +1,0 @@
-import{_ as s,c as t,o as c,a as e}from"./index-fXr1BVbn.js";const o={},a={class:"wrapper",style:{display:"block","text-align":"center"}},n=e("h1",null,"About Black",-1),_=e("div",{class:"container"}," Black is BLACK BLACK is NO ",-1),r=[n,_];function i(l,d){return c(),t("div",a,r)}const B=s(o,[["render",i]]);export{B as default};
