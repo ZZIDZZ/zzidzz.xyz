@@ -6,22 +6,29 @@ import TheWelcome from '../components/TheWelcome.vue'
   <div class="wrapper" style="display: block; text-align: center;">
     <h1>Hello!</h1>
     <div class="container">
-      <p>Welcome to My Page</p>
+      <p>Welcome to my personal website.</p>
+      <p>Here are few shortlinks:</p>
     </div>
     <br>
-    <div class="list-group">
-      <!-- urls -->
-      <a class="urltext list-group-item" href="https://zzidzz.xyz">Website</a>
-      <a class="urltext list-group-item" href="https://github.com/ZZIDZZ">GitHub</a>
-      <a class="urltext list-group-item" href="https://ctftime.org/team/169835">CTFTime</a>
-      <!-- hackthebox -->
-      <a class="urltext list-group-item" href="https://app.hackthebox.com/profile/780810">HackTheBox</a>
-      <!-- medium -->
-      <a class="urltext list-group-item" href="https://medium.com/@zidanutomo">Medium</a>
-      <!-- linkedin -->
-      <a class="urltext list-group-item" href="https://www.linkedin.com/in/zidanutomo">LinkedIn</a>
+      <div class="wrapper d-flex flex-wrap justify-content-center" style="gap: 2rem">
+        <!-- urls -->
+        <a class="urltext list-group-item" href="https://zzidzz.xyz">Website</a>
+        <a class="urltext list-group-item" href="https://github.com/ZZIDZZ">GitHub</a>
+        <a class="urltext list-group-item" href="https://ctftime.org/team/169835">CTFTime</a>
+        <!-- hackthebox -->
+        <a class="urltext list-group-item" href="https://app.hackthebox.com/profile/780810">HackTheBox</a>
+        <!-- medium -->
+        <a class="urltext list-group-item" href="https://medium.com/@zidanutomo">Medium</a>
+        <!-- linkedin -->
+        <a class="urltext list-group-item" href="https://www.linkedin.com/in/zidanutomo">LinkedIn</a>
+        <!-- dockerhub -->
+        <a class="urltext list-group-item" href="https://hub.docker.com/u/zzidzz">Docker Hub</a>
+        <!-- hackerrank -->
+        <a class="urltext list-group-item" href="https://www.hackerrank.com/profile/C_24060121130051">HackerRank</a>
+        <!-- dicoding -->
+        <a class="urltext list-group-item" href="https://www.dicoding.com/users/zidanutomo/academies">Dicoding</a>
+      </div>
 
-    </div>
     
   </div>
 </template>
@@ -33,10 +40,10 @@ p {
 }
 .urltext{
   font-size: 2rem;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .list-group {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding-left: 0;
 }
 .list-group-item {

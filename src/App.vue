@@ -27,27 +27,38 @@
         </div>
         <div class="header-links row" >
           <div class="col centernavtext">
+            <RouterLink to="/about">
+              <h3 class="header-link">About</h3>
+            </RouterLink>
+          </div>
+          <div class="col centernavtext">
             <RouterLink to="/projects">
               <h3 class="header-link">Projects</h3>
             </RouterLink>
           </div>
           <div class="col centernavtext">
-            <RouterLink to="/personal">
-              <h3 class="header-link">Personal Life</h3>
-            </RouterLink>
-          </div>
-          <div class="col centernavtext">
-            <RouterLink to="/about">
-              <h3 class="header-link">About</h3>
+            <RouterLink to="/info">
+              <h3 class="header-link">Info</h3>
             </RouterLink>
           </div>
         </div>
       </div>
     </nav>
 
+  
+
   <RouterView />
+
+  <div class="container" style="display: flex; text-align: center; gap: 2em; flex-direction: column; margin-top: 5rem; margin-bottom: 5rem; font-size: larger;">
+    <a href="https://zzidzz.xyz">2025 @ ZZIDZZ</a>
+    <a href="mailto:zzidzz@zzidzz.xyz">mail: zzidzz@zzidzz.xyz</a>
+  </div>
+  
+
   
   </header>
+
+  
 
 
 </template>
