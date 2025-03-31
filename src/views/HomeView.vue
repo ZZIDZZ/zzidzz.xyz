@@ -27,6 +27,9 @@ import TheWelcome from '../components/TheWelcome.vue'
         <a class="urltext list-group-item" href="https://www.hackerrank.com/profile/C_24060121130051">HackerRank</a>
         <!-- dicoding -->
         <a class="urltext list-group-item" href="https://www.dicoding.com/users/zidanutomo/academies">Dicoding</a>
+        <!-- steam -->
+        <a class="urltext list-group-item" href="https://steamcommunity.com/id/zzdizz/">Steam</a>
+
       </div>
 
     
